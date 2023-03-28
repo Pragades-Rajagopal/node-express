@@ -7,10 +7,6 @@ app.get('/hello', (request, response) => {
     response.send("hello world!")
 });
 
-app.get('/name', (request, response) => {
-    response.send("hello Max!")
-});
-
 app.get('/goodbye', (request, response) => {
     response.send("thanks for visiting")
 });
